@@ -1,6 +1,6 @@
 THEMES LIBRARY — README
 
-[Live](https://iem-pranav.github.io/themes-library/themes.html)
+[Live](https://iem-pranav.github.io/Themes-Library/themes.html)
 ---------
 
 Overview:
