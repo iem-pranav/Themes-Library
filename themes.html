@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Themes — Demo</title>
+   <link rel="icon" href="images/favicon.png" type="image/png-icon">
+  <link rel="stylesheet" href="styles/themes.css" />
+</head>
+<body>
+  <main style="padding: 40px; max-width: 900px;">
+    <h1>🎨 Themes Demo</h1>
+    <p>
+      This page demonstrates the <code>themes</code> library. The floating
+      <strong>🎨</strong> icon on the bottom-right opens the collapsible theme
+      panel.
+    </p>
+    <ul>
+      <li>Click any theme to apply it</li>
+      <li>Click <strong>🎲 Random</strong> to pick a random theme</li>
+      <li>Click <strong>🔁 Shuffle</strong> to start auto-rotation (default 18s)</li>
+      <li>Press <kbd>Ctrl</kbd> + <kbd>H</kbd> to open the help popup</li>
+    </ul>
+
+    <hr />
+
+    <section style="margin-top: 24px;">
+      <h2>Sample content</h2>
+      <p>
+        This is sample content to show how the theme library affects the
+        entire page background, text color and buttons.
+      </p>
+
+      <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;">
+        <button class="sample-btn">Sample button</button>
+        <button class="sample-btn">Another</button>
+      </div>
+    </section>
+
+    <footer style="margin-top:38px; font-size:0.9rem; opacity:0.9">
+      <p>
+        Library exposes a global object <code>window.themesSwitcher</code> with
+        methods like <code>setTheme(name)</code>, <code>startShuffle(sec)</code>,
+        <code>stopShuffle()</code>.
+      </p>
+    </footer>
+  </main>
+
+  <script src="scripts/themes.js"></script>
+</body>
+</html>
